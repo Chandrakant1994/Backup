@@ -1,0 +1,93 @@
+fieldset {
+    margin-bottom: 20px;
+    border-color: #b0e1f9;
+}
+
+.vertical {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    height: 100px;
+}
+
+.fancy {
+    position: relative;
+    background-color: #f38e47;
+    padding: 2rem;
+    text-align: center;
+    max-width: 200px;
+    margin: 10px;
+  }
+  
+  .fancy::before {
+    content: "";
+  
+    position : absolute;
+    z-index  : -1;
+    bottom   : 15px;
+    right    : 5px;
+    width    : 50%;
+    top      : 80%;
+    max-width: 200px;
+  
+    box-shadow: 4px 13px 5px black;
+    transform: rotate(4deg);
+  }
+
+  .fancyBoxes{
+    display: flex;
+  }
+  .fancyBoxes div:nth-child(3){
+  background-color: #6ce864
+  }
+
+  .fancyBoxes div:nth-child(4){
+    background-color: #08f5ea
+    }
+
+  div.pattern{
+      height : 100px;
+      width: 47%;
+      margin: 1%;
+      color: white;
+  }
+
+  .patternSet div:nth-child(2){
+    background:
+    linear-gradient(135deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #708090 22px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#708090;
+    background-size: 64px 128px;
+    display: inline-block;
+  }
+
+  .patternSet div:nth-child(3){
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    display: inline-block;
+  }
+
+  .patternSet div:nth-child(4){
+    color:#282828;
+    background-image: linear-gradient(175deg, rgba(0,0,0,0) 95%, #8da389 95%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 95%, #8da389 95%),
+    linear-gradient(175deg, rgba(0,0,0,0) 90%, #b4b07f 90%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 92%, #b4b07f 92%),
+    linear-gradient(175deg, rgba(0,0,0,0) 85%, #c5a68e 85%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 89%, #c5a68e 89%),
+    linear-gradient(175deg, rgba(0,0,0,0) 80%, #ba9499 80%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 86%, #ba9499 86%),
+    linear-gradient(175deg, rgba(0,0,0,0) 75%, #9f8fa4 75%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 83%, #9f8fa4 83%),
+    linear-gradient(175deg, rgba(0,0,0,0) 70%, #74a6ae 70%),
+    linear-gradient( 85deg, rgba(0,0,0,0) 80%, #74a6ae 80%);
+}
+
+.patternSet div:nth-child(4)>span{
+    transform: rotate(45deg);
+}
+

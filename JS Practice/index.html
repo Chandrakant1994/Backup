@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="global.css">
+    
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Fruit juice size</legend>
+            <p>
+                <input type="radio" name="size" id="size_1" value="small">
+                <label for="size_1">Small</label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_2" value="medium">
+                <label for="size_2">Medium</label>
+            </p>
+            <p>
+                <input type="radio" name="size" id="size_3" value="large">
+                <label for="size_3">Large</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>BOTS Register</legend>
+            <p>
+                <input type="text" name="size" id="bot_1" placeholder="Bot_Name">
+                <label for="bot_1">Small</label>
+            </p>
+            <p>
+                <input type="text" name="size" id="bot_2" placeholder="Bot_Name">
+                <label for="bot_2">Medium</label>
+            </p>
+            <p>
+                <input type="text" name="size" id="bot_3" placeholder="Bot_Name">
+                <label for="bot_3">Large</label>
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Autocomplete Box</legend>
+            <label for="myFruit">What's your favorite fruit?</label>
+            <input type="text" name="myFruit" id="myFruit" list="mySuggestion">
+            <datalist id="mySuggestion">
+                <option>Apple</option>
+                <option>Banana</option>
+                <option>Blackberry</option>
+                <option>Blueberry</option>
+                <option>Lemon</option>
+                <option>Lychee</option>
+                <option>Peach</option>
+                <option>Pear</option>
+            </datalist>
+        </fieldset>
+
+        <fieldset>
+            <legend>Select List</legend>
+            <select id="groups" name="groups">
+                <optgroup label="fruits">
+                    <option>Banana</option>
+                    <option selected>Cherry</option>
+                    <option>Lemon</option>
+                </optgroup>
+                <optgroup label="vegetables">
+                    <option>Carrot</option>
+                    <option>Eggplant</option>
+                    <option>Potato</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>TypoGraphy</legend>
+            <p class="vertical">In another moment down went Alice after it, never once considering how in the world she was to get out again.</p>
+        </fieldset>
+
+        <fieldset class="fancyBoxes">
+            <legend>Fancy boxes</legend>
+            <div class="fancy">Hi! I want to be fancy.</div>
+            <div class="fancy">Me To !!.</div>
+            <div class="fancy">I am already !</div>
+        </fieldset>
+
+        <fieldset class="patternSet" disabled="disabled">
+            <legend>Patterns</legend>
+            <div class="pattern">Pattern 1</div>
+            <div class="pattern">Pattern 2</div>
+            <div class="pattern"><span>THis Is Pattern 3</span></div>
+
+        </fieldset>
+
+
+    </form>
+
+</body>
+
+</html>

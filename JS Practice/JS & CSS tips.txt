@@ -1,0 +1,20 @@
+Supposed to pass callbacks as the first argument.
+- You can use arguments variable for ease of use arguments[0], arguments[1] or so
+
+function callbackTester (callback) {
+    callback (arguments[1], arguments[2]);
+}
+
+callbackTester (tryMe, "hello", "goodbye");
+
+- event.preventDefault();
+
+
+
+CSS tips - Setting properties to 'auto' is very dangerous as you are leaving them to computation relative to other elements.
+
+- addressing an element more spevifically will override the not very specific css. e.g- Table tr will override just tr
+
+In react it is good practice make granular focus component
+
+- using 'classes' keyword from .css

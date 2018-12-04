@@ -1,0 +1,14 @@
+require('jquery');
+import {SPComponentLoader} from "@microsoft/sp-loader";
+
+
+SPComponentLoader.loadCss("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+SPComponentLoader.loadScript("https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js");
+SPComponentLoader.loadScript("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js");
+
+"externals": {
+    "jquery": {
+      "path": "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
+      "globalName": "jquery"
+    }
+  }
