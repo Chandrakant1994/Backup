@@ -1,0 +1,24 @@
+width : 100% : unlike 'auto' it ignores the margin and padding and borders and may appear larger than parent
+
+EncodeURI
+
+The problem is that Internet Explorer assumes if the dpi of the display is high, that you need this "fix" - but, say, on a laptop with a 13" display at 1920x1080, it wants to set 150% as the default zoom. That's insane. I could actually see 125%, but 150% is excessive.
+
+DPI vs PPI :-
+DPI - is how many dots of ink a printer has to use to print a particular image
+
+
+
+CSS property
+font :
+margin : 
+background-position:
+
+Js function
+slice(0 , 5) => gives the total number of items if array length less than 5 
+
+can apply different style objects using spread operators in jsx
+
+backgound-size ,
+border-bottom-color, : no way to conteol border opacity
+<hr />
